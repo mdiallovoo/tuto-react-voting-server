@@ -62,6 +62,8 @@ describe('reducer', () => {
             { type: 'NEXT' },
             { type: 'VOTE', entry: 'Trainspotting' },
             { type: 'VOTE', entry: '28 Days Later' },
+            { type: 'VOTE', entry: '28 Days Later' },
+            { type: 'VOTE', entry: 'Trainspotting' },
             { type: 'VOTE', entry: 'Trainspotting' },
             { type: 'NEXT' }
         ];

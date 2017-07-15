@@ -1,8 +1,12 @@
-# @AngularClass
-
+node_modules/
+build/
+npm-debug.log
+.DS_Store
+=======
 # Logs
 logs
 *.log
+npm-debug.log*
 
 # Runtime data
 pids
@@ -15,54 +19,24 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+# nyc test coverage
+.nyc_output
+
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
+
+# node-waf configuration
+.lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
-# Users Environment Variables
-.lock-wscript
+# Dependency directories
+node_modules
+jspm_packages
 
-# OS generated files #
-.DS_Store
-ehthumbs.db
-Thumbs.db
+# Optional npm cache directory
+.npm
 
-# Node Files #
-/node_modules
-/server/node_modules
-/bower_components
-npm-debug.log
-
-# Coverage #
-/coverage/
-
-# Typing #
-/src/typings/tsd/
-/typings/
-/tsd_typings/
-
-# Dist #
-/pack/*
-/public/__build__/
-/src/*/__build__/
-/__build__/**
-/public/dist/
-/src/*/dist/
-/dist/**
-.webpack.json
-
-# Doc #
-/doc/
-
-# IDE #
-.idea/
-*.swp
-
-/server/bin/iisnode/
-/server/public/javascripts
-/server/public/img
-/server/public/fonts
-/server/public/stylesheets
-server/webstart/iisnode/
+# Optional REPL history
+.node_repl_history
